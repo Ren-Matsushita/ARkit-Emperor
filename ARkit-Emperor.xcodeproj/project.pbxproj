@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A607A9D221122AF00D0F710 /* doodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A607A9C221122AF00D0F710 /* doodleViewController.swift */; };
 		9A78988321E76CBD00ED27E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78988221E76CBD00ED27E1 /* AppDelegate.swift */; };
 		9A78988521E76CBD00ED27E1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A78988421E76CBD00ED27E1 /* art.scnassets */; };
 		9A78988721E76CBD00ED27E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78988621E76CBD00ED27E1 /* ViewController.swift */; };
@@ -14,6 +15,12 @@
 		9A78988C21E76CBF00ED27E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A78988B21E76CBF00ED27E1 /* Assets.xcassets */; };
 		9A78988F21E76CBF00ED27E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A78988D21E76CBF00ED27E1 /* LaunchScreen.storyboard */; };
 		9A78989A21E76CBF00ED27E1 /* ARkit_EmperorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78989921E76CBF00ED27E1 /* ARkit_EmperorUITests.swift */; };
+		9A7898A521E7728600ED27E1 /* basics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7898A421E7728600ED27E1 /* basics.storyboard */; };
+		9A7898A721E772C700ED27E1 /* basicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7898A621E772C700ED27E1 /* basicsViewController.swift */; };
+		9A7898EF21E84FB600ED27E1 /* doodle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7898EE21E84FB600ED27E1 /* doodle.storyboard */; };
+		9AB06A4A22137C360093AC80 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB06A4922137C360093AC80 /* MemoViewController.swift */; };
+		9AB06A4C22137C4A0093AC80 /* Memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB06A4B22137C4A0093AC80 /* Memo.storyboard */; };
+		9AF0E677221251A5009D5188 /* DoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0E676221251A5009D5188 /* DoodleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A607A9C221122AF00D0F710 /* doodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doodleViewController.swift; sourceTree = "<group>"; };
 		9A78987F21E76CBD00ED27E1 /* ARkit-Emperor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARkit-Emperor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A78988221E76CBD00ED27E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A78988421E76CBD00ED27E1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -38,6 +46,12 @@
 		9A78989521E76CBF00ED27E1 /* ARkit-EmperorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARkit-EmperorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A78989921E76CBF00ED27E1 /* ARkit_EmperorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkit_EmperorUITests.swift; sourceTree = "<group>"; };
 		9A78989B21E76CBF00ED27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7898A421E7728600ED27E1 /* basics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = basics.storyboard; sourceTree = "<group>"; };
+		9A7898A621E772C700ED27E1 /* basicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicsViewController.swift; sourceTree = "<group>"; };
+		9A7898EE21E84FB600ED27E1 /* doodle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = doodle.storyboard; sourceTree = "<group>"; };
+		9AB06A4922137C360093AC80 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		9AB06A4B22137C4A0093AC80 /* Memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memo.storyboard; sourceTree = "<group>"; };
+		9AF0E676221251A5009D5188 /* DoodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoodleViewController.swift; path = "ARkit-Emperor/DoodleViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A607A992211224100D0F710 /* Doodle */ = {
+			isa = PBXGroup;
+			children = (
+				9A7898EE21E84FB600ED27E1 /* doodle.storyboard */,
+				9AF0E676221251A5009D5188 /* DoodleViewController.swift */,
+				9A607A9C221122AF00D0F710 /* doodleViewController.swift */,
+			);
+			path = Doodle;
+			sourceTree = "<group>";
+		};
 		9A78987621E76CBD00ED27E1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +103,7 @@
 		9A78988121E76CBD00ED27E1 /* ARkit-Emperor */ = {
 			isa = PBXGroup;
 			children = (
+				9AB06A4822137C210093AC80 /* Memo */,
 				9A78988221E76CBD00ED27E1 /* AppDelegate.swift */,
 				9A78988421E76CBD00ED27E1 /* art.scnassets */,
 				9A78988621E76CBD00ED27E1 /* ViewController.swift */,
@@ -86,6 +111,9 @@
 				9A78988B21E76CBF00ED27E1 /* Assets.xcassets */,
 				9A78988D21E76CBF00ED27E1 /* LaunchScreen.storyboard */,
 				9A78989021E76CBF00ED27E1 /* Info.plist */,
+				9A7898A421E7728600ED27E1 /* basics.storyboard */,
+				9A7898A621E772C700ED27E1 /* basicsViewController.swift */,
+				9A607A992211224100D0F710 /* Doodle */,
 			);
 			path = "ARkit-Emperor";
 			sourceTree = "<group>";
@@ -97,6 +125,15 @@
 				9A78989B21E76CBF00ED27E1 /* Info.plist */,
 			);
 			path = "ARkit-EmperorUITests";
+			sourceTree = "<group>";
+		};
+		9AB06A4822137C210093AC80 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				9AB06A4922137C360093AC80 /* MemoViewController.swift */,
+				9AB06A4B22137C4A0093AC80 /* Memo.storyboard */,
+			);
+			path = Memo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +217,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7898A521E7728600ED27E1 /* basics.storyboard in Resources */,
+				9AB06A4C22137C4A0093AC80 /* Memo.storyboard in Resources */,
 				9A78988521E76CBD00ED27E1 /* art.scnassets in Resources */,
 				9A78988F21E76CBF00ED27E1 /* LaunchScreen.storyboard in Resources */,
 				9A78988C21E76CBF00ED27E1 /* Assets.xcassets in Resources */,
 				9A78988A21E76CBD00ED27E1 /* Main.storyboard in Resources */,
+				9A7898EF21E84FB600ED27E1 /* doodle.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A607A9D221122AF00D0F710 /* doodleViewController.swift in Sources */,
 				9A78988721E76CBD00ED27E1 /* ViewController.swift in Sources */,
+				9AB06A4A22137C360093AC80 /* MemoViewController.swift in Sources */,
+				9A7898A721E772C700ED27E1 /* basicsViewController.swift in Sources */,
 				9A78988321E76CBD00ED27E1 /* AppDelegate.swift in Sources */,
+				9AF0E677221251A5009D5188 /* DoodleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65BYKJ4KHA;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
 				INFOPLIST_FILE = "ARkit-Emperor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,7 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65BYKJ4KHA;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
 				INFOPLIST_FILE = "ARkit-Emperor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
